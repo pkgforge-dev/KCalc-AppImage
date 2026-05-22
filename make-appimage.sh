@@ -13,6 +13,7 @@ export DESKTOP=/usr/share/applications/org.kde.kcalc.desktop
 export STARTUPWMCLASS=org.kde.kcalc
 export DEPLOY_QT=1
 export QT_DIR=qt6
+export ALWAYS_SOFTWARE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/kcalc /usr/share/config.kcfg
