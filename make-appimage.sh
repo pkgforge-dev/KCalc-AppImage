@@ -11,9 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=https://invent.kde.org/utilities/kcalc/-/raw/master/icons/256-apps-accessories-calculator.png?ref_type=heads
 export DESKTOP=/usr/share/applications/org.kde.kcalc.desktop
 export STARTUPWMCLASS=org.kde.kcalc
-export DEPLOY_QT=1
-export QT_DIR=qt6
-export ALWAYS_SOFTWARE=1
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/kcalc /usr/share/config.kcfg
